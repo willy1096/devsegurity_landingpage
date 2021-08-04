@@ -1,5 +1,22 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background: #f2f2f2;
-  padding: 20px; }
+  background: #3957b1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px; }
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; }
+
+/*----- ---- header ---- ----- */
+header {
+  background: url("../../img/imagen-grande.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 600px; }
 
 /*# sourceMappingURL=estilos.css.map */
