@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,WAAW;EACP,gBAAgB,ECER,OAAO;;ACHnB,CAAC;EACG,UAAU,EAAE,UAAU;;AAE1B,IAAI;EACA,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
+"mappings": "AAAA,WAAW;EACP,gBAAgB,ECDR,OAAO;;ACAnB,CAAC;EACG,UAAU,EAAE,UAAU;;AAE1B,IAAI;EACA,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
 "sources": ["../sass/header.sass","../sass/variables.sass","../sass/estilos.sass"],
 "names": [],
 "file": "app.css"
