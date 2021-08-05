@@ -4,22 +4,44 @@
 body {
   background: #191C34;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px; }
+  font-size: 16px; 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 .contenedor {
-  width: 90%;
-  max-width: 1000px;
+  width: 100%;
   margin: auto;
-  overflow: hidden; }
+  overflow: hidden; 
+  max-height: 600px;
+  position: relative;
+}
 
 /*----- ---- header ---- ----- */
 header {
-  max-height: 600px; }
+  max-height: 600px; 
+  position: relative;
+}
+
+.background-opacity{
+  background-color: rgba(0, 0, 0, 0.541);
+  width: 100%;
+  position: absolute;
+  height: 600px;
+  z-index: 1;
+
+}
 
 header .contenedor {
   background-image: url("../../img/portada.png");
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+  width: 100%;
+  min-width: 100%;
+  background-size: cover;
+  position: relative;
+}
 
 header .menu {
   margin: 40px 0;
