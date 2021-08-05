@@ -14,9 +14,12 @@ body {
 
 /*----- ---- header ---- ----- */
 header {
-  background-repeat: no-repeat;
-  background-position: center;
   max-height: 600px; }
+
+header .contenedor {
+  background-image: url("../../img/portada.png");
+  background-position: center;
+  background-repeat: no-repeat; }
 
 header .menu {
   margin: 40px 0;
@@ -49,7 +52,7 @@ header .contenedor-texto .texto {
 
 header .contenedor-texto .texto h1,
 header .contenedor-texto .texto h2 {
-  color: #fff;
+  color: #000;
   font-weight: 300;
   margin: 0; }
 
@@ -68,6 +71,9 @@ header .contenedor-texto .texto .profesion {
 
 .main .acerca-de {
   margin-top: -60px; }
+
+.main .acerca-de .foto {
+  text-align: center; }
 
 .main .acerca-de .foto img {
   vertical-align: top;
