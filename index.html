@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,119 @@
     <title>Dev Segurity</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/css/app.css">
-
 </head>
 <body>
-    <header>
-        <div class="container contenedor">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 columna">
-                    <nav class="menu">
-                        <a href="#">Inicio</a> 
-                        <a href="#">Servicios</a>
-                        <a href="#">Acerca de</a>
-                        <a href="#">Equipo</a>
-                        <a href="#">Contacto</a> 
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                          <img src="img/logo.png" alt="" width="90px;">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse item-link" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Servicios</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Equipo</a>
+                              </li>
+                            </ul>
+                            <ul class="social">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagram</a></li>
+                            </ul>
+                          </div>
+                        </div>
                       </nav>
                 </div>
             </div>
-            <div class="contenedor-texto">
-                <div class="texto">
-                    <h1 class="nombre">Dev Segurity</h1>
-                    <h2 class="profesion">Desarrollo web</h2>
-                </div>
-            </div>    
-        </div> 
+        </div>
     </header>
+    <section class="banner">
+        <div class="banner-oscured">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-white">DevSoft engineer</h2>
+                        <p class="text-white">Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías<br> o de borradores de diseño para probar el diseño visual antes de insertar el texto final.</p>
+                        <button class="btn-contact">¡Contactanos!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Servicios</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/05/29/10/33/ux-789162_960_720.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Desarrollo Móvil</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Desarrollo Web</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Consultoria Informatica</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/15/10/35/website-3227784_960_720.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Venta de mota </h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section class="main">
         <div class="container">
@@ -42,10 +129,11 @@
                     <div class="foto">
                         <img src="img/Avatar.jpeg" width="115" height="115" alt="Andres">
                     </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 texto">
+                    <div class="col-lg-6 col-md-12 col-sm-12 texto">
                         <h3 class="titulo">Acerca de</h3>
-                        <p>Dev Segurity, <span class="bold"> esta especializado en el desarrollo de aplicaciones moviles, desarrollo
-                        de software <span class="bold"> y soporte </span></p>
+                        <p>Dev Segurity, <span class="bold"> esta especializado en el desarrollo de aplicaciones
+                                moviles, desarrollo
+                                de software <span class="bold"> y soporte </span></p>
                     </div>
                 </div>
             </div>
@@ -101,4 +189,5 @@
 
     <script src="styles/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

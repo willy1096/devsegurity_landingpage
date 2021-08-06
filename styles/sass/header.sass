@@ -1,2 +1,38 @@
-.contenedor
-    background-color: $color-azul
+.header
+    position: fixed
+    width: 100%
+    background: $color-azul
+    z-index: 1
+
+    a
+        color: $color-blanco
+        margin-right: 40px
+
+    .nav-link:hover
+        color: #000000
+        font-weight: bold
+
+    .nav-link:focus
+        color: $color-fondo
+        font-weight: bold
+    
+    
+
+    &-background
+        background-image: url('../../img/portada.png')
+        background-size: cover
+        background-repeat: no-repeat
+        min-height: 650px
+        position: relative
+       
+    &-opacity
+        background-color:rgba(0,0,0,6.9)
+        position: absolute
+        width: 100%
+        transform: translate(-50%, -50%)
+        -webkit-transform: translate(0%, 0%)
+        background-color: rgba(0, 0, 0, 0.4)
+        height: 100%
+  
+     
+        
