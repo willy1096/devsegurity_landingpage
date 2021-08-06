@@ -13,10 +13,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/aos/aos.css">
+    <link rel="stylesheet" href="styles/css/loading.css">
     <link rel="stylesheet" href="styles/css/app.css">
+   
 </head>
 <body>
-    <header class="header">
+    <div class="loading w-100 vh-100 align-items-center justify-content-center" id="app">
+        <div class="text-center">
+            <img src="img/load.gif" alt="Sak Park" class="m15 d-block"  width="200px">
+            <h2 class="text-white">DevSoft engineer</h2>
+        </div>
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+    <header class="header" data-aos="fade-right" data-aos-duration="3000">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
@@ -47,6 +61,9 @@
                             <ul class="social">
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Instagram</a></li>
+                                <div class="menu menu-3 mt-2" id="btn-menu-toggle">
+                                    <span></span>
+                                </div>
                             </ul>
                           </div>
                         </div>
@@ -55,7 +72,8 @@
             </div>
         </div>
     </header>
-    <section class="banner">
+
+    <section class="banner" data-aos="zoom-in" data-aos-duration="3000">
         <div class="banner-oscured">
             <div class="container">
                 <div class="row">
@@ -68,6 +86,7 @@
             </div>
         </div>
     </section>
+
     <section class="servicios">
         <div class="container">
             <div class="row">
@@ -76,17 +95,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-3 col-md-6">
+                <div class="col-12 col-lg-3 col-md-6"  data-aos="flip-left" data-aos-duration="3000">
                     <div class="card" style="width: 18rem;">
+                        <div class="img-bakc"></div>
                         <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/05/29/10/33/ux-789162_960_720.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Desarrollo Móvil</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                         
                         </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6">
+                <div class="col-12 col-lg-3 col-md-6"  data-aos="flip-left" data-aos-duration="3500">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -96,7 +115,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6">
+                <div class="col-12 col-lg-3 col-md-6"  data-aos="flip-left" data-aos-duration="4000">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png" alt="Card image cap">
                         <div class="card-body">
@@ -106,7 +125,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6">
+                <div class="col-12 col-lg-3 col-md-6"  data-aos="flip-left" data-aos-duration="4500">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/15/10/35/website-3227784_960_720.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -120,21 +139,17 @@
         </div>
     </section>
 
-
-
-    <section class="main">
+    <section class="nosotros" data-aos="fade-right">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 col-sm-12 contenedor-2">
-                    <div class="foto">
-                        <img src="img/Avatar.jpeg" width="115" height="115" alt="Andres">
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 texto">
-                        <h3 class="titulo">Acerca de</h3>
-                        <p>Dev Segurity, <span class="bold"> esta especializado en el desarrollo de aplicaciones
-                                moviles, desarrollo
-                                de software <span class="bold"> y soporte </span></p>
-                    </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Nosotros</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>Somos una agencia enfocada al Desarrollo Web y Móvil; con personales apasionados y expertos.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, modi deserunt doloremque similique recusandae praesentium tenetur nostrum sapiente sint explicabo provident asperiores libero sed accusamus error inventore, perferendis est cum.</p>
                 </div>
             </div>
         </div>
@@ -166,6 +181,8 @@
             <img src="img/2.jpg" alt="">
         </div>
     </section>
+
+
     <footer>
         <section class="col-lg-3 col-md-6 col-sm-12 contacto">
             <div class="contenedor">
@@ -186,8 +203,27 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="styles/bootstrap/js/bootstrap.min.js"></script>
+    <script src="styles/aos/aos.js"></script>
+    <script>
+         AOS.init({
+            duration:3000
+         });
+    </script>
+   <script>
+    // Loading
+    document.addEventListener("DOMContentLoaded", function (event) {
+        document.getElementById('btn-menu-toggle').addEventListener('click', function(){
+            this.classList.toggle('active');
+            document.querySelector('.sidebar-left').classList.toggle('active');
+        }, false);
+        setTimeout(() => {
+            $('.loading').fadeOut(350);
+        }, 1000);
+    });
+
+</script>
 </body>
 
 </html>

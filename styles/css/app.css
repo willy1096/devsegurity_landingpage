@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   width: 100%;
-  background: #3957B1;
+  background: #4E23B2;
   z-index: 1; }
   .header a {
     color: #fff;
@@ -57,13 +57,15 @@
     box-shadow: 1px 1px 16px #4E23B2; }
 
 .servicios {
-  padding: 60px 0; }
+  background-color: #fff;
+  padding: 80px 0; }
   .servicios h2 {
     font-family: "PT Serif", serif;
     color: #3957B1;
     padding-bottom: 30px; }
   .servicios .card {
-    box-shadow: -5px 13px 14px 0px rgba(25, 28, 58, 0.25); }
+    box-shadow: 0px 7px 7px 0px #4E23B2;
+    border: none !important; }
   .servicios .card img {
     height: 200px; }
   .servicios .card-title {
@@ -76,6 +78,17 @@
     font-family: "Open Sans";
     color: #4E23B2; }
 
+.nosotros {
+  padding: 80px 0;
+  background-color: #3957B1; }
+  .nosotros h2 {
+    font-family: "PT Serif", serif;
+    color: #191C34;
+    padding-bottom: 30px; }
+  .nosotros p {
+    color: #fff;
+    font-size: 18px; }
+
 * {
   box-sizing: border-box; }
 
@@ -83,6 +96,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #191C34; }
 
 /*# sourceMappingURL=app.css.map */
