@@ -127,7 +127,7 @@ body {
 .contacto .formulario input[type="text"]:focus,
 .contacto .formulario input[type="email"]:focus,
 .contacto .formulario textarea:focus {
-  border: 2px solid #3895ea; }
+  border: 2px solid #3957B1; }
 
 .contacto .formulario input[type="text"],
 .contacto .formulario input[type="email"] {
@@ -145,7 +145,7 @@ body {
 
 .contacto .formulario .boton {
   margin: auto;
-  background: #387bea;
+  background: #3957B1;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -153,7 +153,7 @@ body {
   cursor: pointer; }
 
 .contacto .formulario .boton:hover {
-  background: #af3847; }
+  background: #4E23B2; }
 
 .equipo {
   padding: 80px 0;
