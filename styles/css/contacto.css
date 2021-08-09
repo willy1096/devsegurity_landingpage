@@ -1,26 +1,18 @@
 /*
-Error: Undefined variable: "$color-azul".
-        on line 29 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass
+Error: Undefined variable: "$font-title".
+        on line 2 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass
 
-24:     color: #a4a4a4
-25: 
-26: .contacto .formulario input[type="text"]:focus,
-27: .contacto .formulario input[type="email"]:focus,
-28: .contacto .formulario textarea:focus
-29:     border: 2px solid $color-azul
-30: 
-31: .contacto .formulario input[type="text"],
-32: .contacto .formulario input[type="email"]
-33:     width: 49%
-34:     margin-bottom: 15px
+1: .contacto
+2:     font-family: $font-title
+3:     padding: 60px 0
+4: 
+5: .contacto .titulo
+6:     font-size: 34px
+7:     line-height: 34px
 
 Backtrace:
-C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass:29
+C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -66,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-azul\".\A         on line 29 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass\A \A 24:     color: #a4a4a4\A 25: \A 26: .contacto .formulario input[type=\"text\"]:focus,\A 27: .contacto .formulario input[type=\"email\"]:focus,\A 28: .contacto .formulario textarea:focus\A 29:     border: 2px solid $color-azul\A 30: \A 31: .contacto .formulario input[type=\"text\"],\A 32: .contacto .formulario input[type=\"email\"]\A 33:     width: 49%\A 34:     margin-bottom: 15px"; }
+  content: "Error: Undefined variable: \"$font-title\".\A         on line 2 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass\A \A 1: .contacto\A 2:     font-family: $font-title\A 3:     padding: 60px 0\A 4: \A 5: .contacto .titulo\A 6:     font-size: 34px\A 7:     line-height: 34px"; }

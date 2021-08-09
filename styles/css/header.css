@@ -1,11 +1,11 @@
 /*
-Error: Undefined variable: "$color-morado".
+Error: Undefined variable: "$color-fondo".
         on line 4 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/header.sass
 
 1: .header
 2:     position: fixed
 3:     width: 100%
-4:     background: $color-morado
+4:     background: $color-fondo
 5:     z-index: 1
 6: 
 7:     a
@@ -60,4 +60,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-morado\".\A         on line 4 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/header.sass\A \A 1: .header\A 2:     position: fixed\A 3:     width: 100%\A 4:     background: $color-morado\A 5:     z-index: 1\A 6: \A 7:     a\A 8:         color: $color-blanco\A 9:         margin-right: 40px"; }
+  content: "Error: Undefined variable: \"$color-fondo\".\A         on line 4 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/header.sass\A \A 1: .header\A 2:     position: fixed\A 3:     width: 100%\A 4:     background: $color-fondo\A 5:     z-index: 1\A 6: \A 7:     a\A 8:         color: $color-blanco\A 9:         margin-right: 40px"; }
