@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$color-fondo".
-        on line 3 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/footer.sass
+        on line 3 of C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\footer.sass
 
 1: .footer
 2:     padding: 20px 0px
@@ -8,7 +8,7 @@ Error: Undefined variable: "$color-fondo".
 4:     color: $color-blanco
 
 Backtrace:
-C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/footer.sass:3
+C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\footer.sass:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -55,4 +55,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-fondo\".\A         on line 3 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/footer.sass\A \A 1: .footer\A 2:     padding: 20px 0px\A 3:     background: $color-fondo\A 4:     color: $color-blanco"; }
+  content: "Error: Undefined variable: \"$color-fondo\".\A         on line 3 of C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\footer.sass\A \A 1: .footer\A 2:     padding: 20px 0px\A 3:     background: $color-fondo\A 4:     color: $color-blanco"; }
