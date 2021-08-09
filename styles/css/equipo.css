@@ -1,14 +1,18 @@
 /*
-Error: Undefined variable: "$color-morado".
-        on line 3 of C:\Users\joaqu\OneDrive\Documentos\GitHub\devsegurity_landingpage\styles\sass\footer.sass
+Error: Undefined variable: "$color-azul".
+        on line 3 of C:/Users/joaqu/OneDrive/Documentos/GitHub/devsegurity_landingpage/styles/sass/equipo.sass
 
-1: .footer
-2:     padding: 30px 0px
-3:     background: $color-morado
-4:     color: $color-blanco
+1: .equipo
+2:     padding: 80px 0
+3:     background-color: $color-azul
+4: 
+5:     h2
+6:         font-family: $font-title
+7:         color: $color-fondo
+8:         padding-bottom: 30px
 
 Backtrace:
-C:\Users\joaqu\OneDrive\Documentos\GitHub\devsegurity_landingpage\styles\sass\footer.sass:3
+C:/Users/joaqu/OneDrive/Documentos/GitHub/devsegurity_landingpage/styles/sass/equipo.sass:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -55,4 +59,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-morado\".\A         on line 3 of C:\Users\joaqu\OneDrive\Documentos\GitHub\devsegurity_landingpage\styles\sass\footer.sass\A \A 1: .footer\A 2:     padding: 30px 0px\A 3:     background: $color-morado\A 4:     color: $color-blanco"; }
+  content: "Error: Undefined variable: \"$color-azul\".\A         on line 3 of C:/Users/joaqu/OneDrive/Documentos/GitHub/devsegurity_landingpage/styles/sass/equipo.sass\A \A 1: .equipo\A 2:     padding: 80px 0\A 3:     background-color: $color-azul\A 4: \A 5:     h2\A 6:         font-family: $font-title\A 7:         color: $color-fondo\A 8:         padding-bottom: 30px"; }
