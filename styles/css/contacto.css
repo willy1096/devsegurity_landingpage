@@ -1,57 +1,69 @@
-.contacto {
-  padding: 60px 0; }
+/*
+Error: Undefined variable: "$color-azul".
+        on line 29 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass
 
-.contacto .titulo {
-  font-size: 34px;
-  line-height: 34px;
-  margin-bottom: 40px;
-  font-weight: 300;
-  color: #af3847;
-  text-align: center; }
+24:     color: #a4a4a4
+25: 
+26: .contacto .formulario input[type="text"]:focus,
+27: .contacto .formulario input[type="email"]:focus,
+28: .contacto .formulario textarea:focus
+29:     border: 2px solid $color-azul
+30: 
+31: .contacto .formulario input[type="text"],
+32: .contacto .formulario input[type="email"]
+33:     width: 49%
+34:     margin-bottom: 15px
 
-.contacto .formulario {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
-.contacto .formulario input[type="text"],
-.contacto .formulario input[type="email"],
-.contacto .formulario textarea {
-  border: 2px solid #cecece;
-  border-radius: 5px;
-  padding: 15px 20px;
-  font-size: 20px;
-  color: #a4a4a4; }
-
-.contacto .formulario input[type="text"]:focus,
-.contacto .formulario input[type="email"]:focus,
-.contacto .formulario textarea:focus {
-  border: 2px solid #3895ea; }
-
-.contacto .formulario input[type="text"],
-.contacto .formulario input[type="email"] {
-  width: 49%;
-  margin-bottom: 15px; }
-
-.contacto .formulario textarea {
-  width: 100%;
-  height: 100px;
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 100px;
-  max-height: 300px;
-  margin-bottom: 15px; }
-
-.contacto .formulario .boton {
-  margin: auto;
-  background: #387bea;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  padding: 15px 40px;
-  cursor: pointer; }
-
-.contacto .formulario .boton:hover {
-  background: #af3847; }
-
-/*# sourceMappingURL=contacto.css.map */
+Backtrace:
+C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass:29
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$color-azul\".\A         on line 29 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass\A \A 24:     color: #a4a4a4\A 25: \A 26: .contacto .formulario input[type=\"text\"]:focus,\A 27: .contacto .formulario input[type=\"email\"]:focus,\A 28: .contacto .formulario textarea:focus\A 29:     border: 2px solid $color-azul\A 30: \A 31: .contacto .formulario input[type=\"text\"],\A 32: .contacto .formulario input[type=\"email\"]\A 33:     width: 49%\A 34:     margin-bottom: 15px"; }
