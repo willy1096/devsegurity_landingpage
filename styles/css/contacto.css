@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$font-title".
-        on line 2 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass
+        on line 2 of C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\contacto.sass
 
 1: .contacto
 2:     font-family: $font-title
@@ -11,7 +11,7 @@ Error: Undefined variable: "$font-title".
 7:     line-height: 34px
 
 Backtrace:
-C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass:2
+C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\contacto.sass:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-title\".\A         on line 2 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/contacto.sass\A \A 1: .contacto\A 2:     font-family: $font-title\A 3:     padding: 60px 0\A 4: \A 5: .contacto .titulo\A 6:     font-size: 34px\A 7:     line-height: 34px"; }
+  content: "Error: Undefined variable: \"$font-title\".\A         on line 2 of C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\contacto.sass\A \A 1: .contacto\A 2:     font-family: $font-title\A 3:     padding: 60px 0\A 4: \A 5: .contacto .titulo\A 6:     font-size: 34px\A 7:     line-height: 34px"; }
