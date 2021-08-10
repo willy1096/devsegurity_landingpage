@@ -60,7 +60,7 @@
   background-color: #191C34;
   padding: 80px 0; }
   .servicios h2 {
-    font-family: "PT Serif", serif;
+    font-family: "Rubik", sans-serif;
     color: #AF3847;
     padding-bottom: 30px;
     text-align: center; }
@@ -72,7 +72,7 @@
   .servicios .card-title {
     font-size: 18px;
     color: #3957B1;
-    font-family: "PT Serif", serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 400; }
   .servicios p.card-text {
     font-size: 14px;
@@ -83,7 +83,7 @@
   padding: 80px 0;
   background-color: #191C34; }
   .nosotros h2 {
-    font-family: "PT Serif", serif;
+    font-family: "Rubik", sans-serif;
     color: #AF3847;
     padding-bottom: 30px;
     text-align: center; }
@@ -95,14 +95,13 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   margin: 0;
-  padding: 0;
-  background-color: #191C34; }
+  padding: 0; }
 
 .contacto {
-  font-family: "PT Serif", serif;
+  font-family: "Rubik", sans-serif;
   padding: 60px 0;
   background: #fff; }
 
@@ -165,7 +164,7 @@ body {
   padding: 80px 0;
   background-color: #191C34; }
   .equipo h2 {
-    font-family: "PT Serif", serif;
+    font-family: "Rubik", sans-serif;
     color: #AF3847;
     padding-bottom: 30px;
     text-align: center; }
@@ -182,7 +181,7 @@ body {
   background: #fff;
   padding: 80px 0; }
   .tecnologias h2 {
-    font-family: "PT Serif", serif;
+    font-family: "Rubik", sans-serif;
     color: #AF3847;
     padding: 30px;
     text-align: center; }
