@@ -1,4 +1,5 @@
 .contacto
+    font-family: $font-title
     padding: 60px 0
 
 .contacto .titulo
@@ -6,13 +7,13 @@
     line-height: 34px
     margin-bottom: 40px
     font-weight: 300
-    color: #af3847
+    color: $color-rojo
     text-align: center
 
 .contacto .formulario 
     display: flex
     flex-wrap: wrap
-    justify-content: space-between
+    justify-content: space-between    
 
 .contacto .formulario input[type="text"],
 .contacto .formulario input[type="email"],
@@ -26,7 +27,7 @@
 .contacto .formulario input[type="text"]:focus,
 .contacto .formulario input[type="email"]:focus,
 .contacto .formulario textarea:focus
-    border: 2px solid #3895ea
+    border: 2px solid $color-azul
 
 .contacto .formulario input[type="text"],
 .contacto .formulario input[type="email"]
@@ -44,7 +45,7 @@
 
 .contacto .formulario .boton
     margin: auto
-    background: #387bea
+    background: $color-azul
     color: #fff
     border: none
     border-radius: 3px
@@ -52,5 +53,5 @@
     cursor: pointer 
 
 .contacto .formulario .boton:hover
-    background: #af3847
+    background: $color-morado
 

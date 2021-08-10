@@ -1,20 +1,35 @@
 /*
-Error: Undefined variable: "$font-title".
-        on line 2 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/contacto.sass
+Error: Undefined variable: "$color-azul".
+        on line 23 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/banner.sass
 
-1: .contacto
-2:     font-family: $font-title
-3:     padding: 60px 0
-4: 
-5: .contacto .titulo
-6:     font-size: 34px
-7:     line-height: 34px
+18:         justify-content: center
+19:         align-items: center
+20: 
+21:     .btn-contact
+22:         color: white
+23:         background: $color-azul
+24:         border: none
+25:         box-shadow: 1px 1px 16px white
+26:         border-radius: 10px
+27:         padding: 10px 30px
+28: 
 
 Backtrace:
-/Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/contacto.sass:2
+/Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/banner.sass:23
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -58,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-title\".\A         on line 2 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/contacto.sass\A \A 1: .contacto\A 2:     font-family: $font-title\A 3:     padding: 60px 0\A 4: \A 5: .contacto .titulo\A 6:     font-size: 34px\A 7:     line-height: 34px"; }
+  content: "Error: Undefined variable: \"$color-azul\".\A         on line 23 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/banner.sass\A \A 18:         justify-content: center\A 19:         align-items: center\A 20: \A 21:     .btn-contact\A 22:         color: white\A 23:         background: $color-azul\A 24:         border: none\A 25:         box-shadow: 1px 1px 16px white\A 26:         border-radius: 10px\A 27:         padding: 10px 30px\A 28: "; }

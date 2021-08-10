@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   width: 100%;
-  background: #4E23B2;
+  background: #191C34;
   z-index: 1; }
   .header a {
     color: #fff;
@@ -47,13 +47,13 @@
     align-items: center; }
   .banner .btn-contact {
     color: white;
-    background: #4E23B2;
+    background: #3957B1;
     border: none;
     box-shadow: 1px 1px 16px white;
     border-radius: 10px;
     padding: 10px 30px; }
   .banner .btn-contact:hover {
-    background: #191C34;
+    background: #4E23B2;
     box-shadow: 1px 1px 16px #4E23B2; }
 
 .servicios {
@@ -61,8 +61,9 @@
   padding: 80px 0; }
   .servicios h2 {
     font-family: "Rubik", sans-serif;
-    color: #3957B1;
-    padding-bottom: 30px; }
+    color: #AF3847;
+    padding-bottom: 30px;
+    text-align: center; }
   .servicios .card {
     box-shadow: 0px 7px 7px 0px #4E23B2;
     border: none !important; }
@@ -80,14 +81,15 @@
 
 .nosotros {
   padding: 80px 0;
-  background-color: #3957B1; }
+  background-color: #fff; }
   .nosotros h2 {
     font-family: "Rubik", sans-serif;
-    color: #191C34;
-    padding-bottom: 30px; }
+    color: #AF3847;
+    padding-bottom: 30px;
+    text-align: center; }
   .nosotros p {
-    color: #fff;
-    font-size: 18px; }
+    color: #191C34;
+    font-size: 20px; }
 
 * {
   box-sizing: border-box; }
@@ -99,6 +101,7 @@ body {
   padding: 0; }
 
 .contacto {
+  font-family: "Rubik", sans-serif;
   padding: 60px 0; }
 
 .contacto .titulo {
@@ -106,7 +109,7 @@ body {
   line-height: 34px;
   margin-bottom: 40px;
   font-weight: 300;
-  color: #af3847;
+  color: #AF3847;
   text-align: center; }
 
 .contacto .formulario {
@@ -126,7 +129,7 @@ body {
 .contacto .formulario input[type="text"]:focus,
 .contacto .formulario input[type="email"]:focus,
 .contacto .formulario textarea:focus {
-  border: 2px solid #3895ea; }
+  border: 2px solid #3957B1; }
 
 .contacto .formulario input[type="text"],
 .contacto .formulario input[type="email"] {
@@ -144,7 +147,7 @@ body {
 
 .contacto .formulario .boton {
   margin: auto;
-  background: #387bea;
+  background: #3957B1;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -152,22 +155,38 @@ body {
   cursor: pointer; }
 
 .contacto .formulario .boton:hover {
-  background: #af3847; }
+  background: #4E23B2; }
 
 .equipo {
   padding: 80px 0;
-  background-color: #3957B1; }
+  background-color: #fff; }
   .equipo h2 {
     font-family: "Rubik", sans-serif;
-    color: #191C34;
-    padding-bottom: 30px; }
+    color: #AF3847;
+    padding-bottom: 30px;
+    text-align: center; }
   .equipo p {
-    color: #fff;
-    font-size: 18px; }
+    color: #191C34;
+    font-size: 20px; }
 
 .footer {
-  padding: 30px 0px;
-  background: #4E23B2;
+  padding: 20px 0px;
+  background: #191C34;
   color: #fff; }
+
+.tecnologias {
+  background: #191C34;
+  padding: 80px 0; }
+  .tecnologias h2 {
+    font-family: "Rubik", sans-serif;
+    color: #AF3847;
+    padding: 30px;
+    text-align: center; }
+  .tecnologias img {
+    width: 200px;
+    height: 100px;
+    background-size: contain;
+    object-fit: contain;
+    display: inline-block; }
 
 /*# sourceMappingURL=app.css.map */
