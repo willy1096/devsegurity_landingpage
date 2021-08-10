@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$color-azul".
-        on line 23 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/banner.sass
+        on line 23 of C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\banner.sass
 
 18:         justify-content: center
 19:         align-items: center
@@ -15,7 +15,7 @@ Error: Undefined variable: "$color-azul".
 28: 
 
 Backtrace:
-C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/banner.sass:23
+C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\banner.sass:23
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-azul\".\A         on line 23 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/banner.sass\A \A 18:         justify-content: center\A 19:         align-items: center\A 20: \A 21:     .btn-contact\A 22:         color: white\A 23:         background: $color-azul\A 24:         border: none\A 25:         box-shadow: 1px 1px 16px white\A 26:         border-radius: 10px\A 27:         padding: 10px 30px\A 28: "; }
+  content: "Error: Undefined variable: \"$color-azul\".\A         on line 23 of C:\Users\andre\OneDrive\Documentos\GitHub\devSegurity_landingPage\styles\sass\banner.sass\A \A 18:         justify-content: center\A 19:         align-items: center\A 20: \A 21:     .btn-contact\A 22:         color: white\A 23:         background: $color-azul\A 24:         border: none\A 25:         box-shadow: 1px 1px 16px white\A 26:         border-radius: 10px\A 27:         padding: 10px 30px\A 28: "; }

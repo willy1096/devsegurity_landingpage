@@ -53,11 +53,11 @@
     border-radius: 10px;
     padding: 10px 30px; }
   .banner .btn-contact:hover {
-    background: #4E23B2;
+    background: #191C34;
     box-shadow: 1px 1px 16px #4E23B2; }
 
 .servicios {
-  background-color: #fff;
+  background-color: #191C34;
   padding: 80px 0; }
   .servicios h2 {
     font-family: "PT Serif", serif;
@@ -81,14 +81,14 @@
 
 .nosotros {
   padding: 80px 0;
-  background-color: #fff; }
+  background-color: #191C34; }
   .nosotros h2 {
     font-family: "PT Serif", serif;
     color: #AF3847;
     padding-bottom: 30px;
     text-align: center; }
   .nosotros p {
-    color: #191C34;
+    color: #fff;
     font-size: 20px; }
 
 * {
@@ -103,7 +103,8 @@ body {
 
 .contacto {
   font-family: "PT Serif", serif;
-  padding: 60px 0; }
+  padding: 60px 0;
+  background: #fff; }
 
 .contacto .titulo {
   font-size: 34px;
@@ -151,32 +152,34 @@ body {
   background: #3957B1;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  box-shadow: 1px 1px 16px blue;
+  border-radius: 10px;
   padding: 15px 40px;
   cursor: pointer; }
 
 .contacto .formulario .boton:hover {
-  background: #4E23B2; }
+  background: #191C34;
+  box-shadow: 1px 1px 16px #3957B1; }
 
 .equipo {
   padding: 80px 0;
-  background-color: #fff; }
+  background-color: #191C34; }
   .equipo h2 {
     font-family: "PT Serif", serif;
     color: #AF3847;
     padding-bottom: 30px;
     text-align: center; }
   .equipo p {
-    color: #191C34;
+    color: #fff;
     font-size: 20px; }
 
 .footer {
   padding: 20px 0px;
-  background: #191C34;
+  background: #000;
   color: #fff; }
 
 .tecnologias {
-  background: #191C34;
+  background: #fff;
   padding: 80px 0; }
   .tecnologias h2 {
     font-family: "PT Serif", serif;
@@ -186,6 +189,7 @@ body {
   .tecnologias img {
     width: 200px;
     height: 100px;
+    margin-bottom: 40px;
     background-size: contain;
     object-fit: contain;
     display: inline-block; }
