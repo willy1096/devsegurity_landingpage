@@ -151,6 +151,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+  body button.navbar-toggler {
+    background: white; }
 
 .contacto {
   font-family: "Rubik", sans-serif;
