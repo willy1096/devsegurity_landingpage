@@ -12,5 +12,10 @@ body {
     font-weight: 700; }
   body .navbar-expand-lg .navbar-collapse {
     justify-content: space-between; }
+  body .text-center.div-loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
 /*# sourceMappingURL=estilos.css.map */
