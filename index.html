@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/aos/aos.css">
     <link rel="stylesheet" href="styles/css/loading.css">
@@ -33,41 +34,42 @@
         </div>
     </div>
 
-    <header class="header" data-aos="fade-right" data-aos-duration="3000">
+    <header class="header" data-aos="fade-right" data-aos-duration="3000" id="header">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                          <img src="img/logo.png" alt="" width="90px;">
+                          <!-- <img src="img/logo.png" alt="" width="90px;"> -->
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
                           <div class="collapse navbar-collapse item-link" id="navbarText">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#uno">Servicios</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#dos">Nosotros</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#tres">Contacto</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#cuatro">Equipo</a>
-                              </li>
-                            </ul>
                             <ul class="social">
-                                <li><a href="https://web.facebook.com/DevSoftengineer">Facebook</a></li>
-                                <li><a href="https://www.instagram.com/devsoftengineer/">Instagram</a></li>
+                                <!-- <li><a href="https://web.facebook.com/DevSoftengineer"> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                                <li><a href="https://www.instagram.com/devsoftengineer/"> <i class="fa fa-instagram" aria-hidden="true"></i>                                    Instagram</a></li> -->
                                 <div class="menu menu-3 mt-2" id="btn-menu-toggle">
                                     <span></span>
                                 </div>
                             </ul>
+                            <ul class="navbar mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#banner">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#servicios">Servicios</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#tecnologias">Tecnologías</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#nosotros">Nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                              </li>
+                            </ul>
+                           
                           </div>
                         </div>
                       </nav>
@@ -76,12 +78,12 @@
         </div>
     </header>
 
-    <section class="banner" data-aos="zoom-in" data-aos-duration="3000">
+    <section class="banner" id="banner" data-aos="zoom-in" data-aos-duration="3000">
         <div class="banner-oscured">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-white">DevSoft Engineer</h2>
+                        <h2>DevSoft Engineer</h2>
                         <p class="text-white">Empresa Especializada En Desarrollo De Software<br> De Nueva Tecnologia, Aqui Te Diseñamos Tu Sitio Web</p>
                         <button class="btn-contact">¡Contactanos!</button>
                     </div>
@@ -90,97 +92,101 @@
         </div>
     </section>
 
-    <section class="servicios">
+    <section class="servicios" id="servicios">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Servicios</h2>
+                    <h2 class="title-header">Servicios</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-lg-3 col-md-6 col-sm-6"  data-aos="flip-left" data-aos-duration="3000">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-6 item-service d-flex justify-content-center"  data-aos="flip-left" data-aos-duration="3000">
                     <div class="card" style="width: 18rem;">
-                        <div class="img-bakc"></div>
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/05/29/10/33/ux-789162_960_720.jpg" alt="Card image cap">
+                        <div class="opacity-card-img"><div class="img-bakc"><img src="img/mobile.svg" class="svg-img" alt="" width="100px">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dolor suscipit quis,</p>
+                        </div><img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/05/29/10/33/ux-789162_960_720.jpg" alt="Card image cap"></div>
                         <div class="card-body">
                           <h5 class="card-title">Desarrollo Móvil</h5>
-                          <p class="card-text">Diseño de Apps y Web Apps.</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6 col-sm-6"  data-aos="flip-left" data-aos-duration="3500">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-6 item-service d-flex justify-content-center"  data-aos="flip-left" data-aos-duration="3500">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg" alt="Card image cap">
+                        <div class="opacity-card-img"><div class="img-bakc"><img src="img/desk.svg" class="svg-img" alt="" width="100px">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dolor suscipit quis,</p>
+                        </div><img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg" alt="Card image cap"></div>
                         <div class="card-body">
                           <h5 class="card-title">Desarrollo Web</h5>
-                          <p class="card-text">Desarrollo de sitios web interctivos y complejos.</p>  
                         </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6 col-sm-6"  data-aos="flip-left" data-aos-duration="4000">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-6 item-service d-flex justify-content-center"  data-aos="flip-left" data-aos-duration="4000">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png" alt="Card image cap">
+                        <div class="opacity-card-img"><div class="img-bakc"><img src="img/info.svg" class="svg-img" alt="" width="100px">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dolor suscipit quis,</p>
+                        </div><img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png" alt="Card image cap"></div>
                         <div class="card-body">
                           <h5 class="card-title">Consultoria Informatica</h5>
-                          <p class="card-text">Automaticacion de precesos empresaruales de alta
-                            complejidad y transformacion digital.</p> 
                         </div>
                       </div>
                 </div>
-                <div class="col-12 col-lg-3 col-md-6 col-sm-6"  data-aos="flip-left" data-aos-duration="4500">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-6 item-service d-flex justify-content-center"  data-aos="flip-left" data-aos-duration="4500">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/15/10/35/website-3227784_960_720.jpg" alt="Card image cap">
+                        <div class="opacity-card-img"><div class="img-bakc"><img src="img/dising.svg" class="svg-img" alt="" width="100px">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dolor suscipit quis,</p>
+                        </div><img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/03/15/10/35/website-3227784_960_720.jpg" alt="Card image cap"></div>
                         <div class="card-body">
                           <h5 class="card-title">Diseño web</h5>
-                          <p class="card-text">Expertos en branding y Productos digitales.</p>
-                         
                         </div>
                       </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="tecnologias">
+  
+    <section class="tecnologias" id="tecnologias">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Tecnologia</h2>
+            <div class="tecnologies">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-header">Tecnologia</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center text-center">
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/java script 0.2.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/laravel.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/phytone 0.2.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/php 0.2.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/Visual code 0.2.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/react 0.2.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/postgresql.png" alt="">
-                </div>
-                <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
-                    <img src="./img/mysql-logo.png" alt="">
+                <div class="row justify-content-center text-center">
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/java script 0.2.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/laravel.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/phytone 0.2.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/php 0.2.png" alt="">
+                    </div>
+                    <!-- <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/Visual code 0.2.png" alt="">
+                    </div> -->
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/react 0.2.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/postgresql.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-1.5 col-md-4 col-sm-12">
+                        <img src="./img/mysql-logo.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="nosotros" data-aos="fade-right">
+    <section class="nosotros" data-aos="fade-right" id="nosotros">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Nosotros</h2>
+                    <h2 class="title-header">Nosotros</h2>
                 </div>
             </div>
             <div class="row">
@@ -192,12 +198,16 @@
         </div>
     </section>
 
-
-    <section id="tres" class="contacto">
-        <div class="contenedor">
+    <section class="contacto" id="contacto">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-11 col-md-11 col-sm-12">
-                    <h3 class="titulo">Contacto</h3>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <div class="img-send d-flex justify-content-center">
+                        <img src="img/send.svg" class="img-fluid img-send-img">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <h3 class="title-header">Contacto</h3>
                     <form action="" class="formulario">
                         <input type="text" placeholder="Nombre" name="nombre" required>
                         <input type="email" placeholder="Correo" name="correo" required>
@@ -208,7 +218,8 @@
             </div>
         </div>
     </section>
-    <section class="equipo" data-aos="fade-right">
+
+    <!-- <section class="equipo" data-aos="fade-right">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -223,7 +234,7 @@
             </div>
         </div>
     </section>
-    
+     -->
     <footer class="footer">
         <section class="container-fluid text-center p-1">
             <div class="contenedor">
@@ -250,6 +261,17 @@
         setTimeout(() => {
             $('.loading').fadeOut(350);
         }, 1000);
+    });
+
+    $(function() {
+        var elemento = document.getElementById("header");
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 500) {
+            elemento.classList.add('header-color');
+            } else {
+            elemento.classList.remove('header-color');
+            }
+        })
     });
 
 </script>

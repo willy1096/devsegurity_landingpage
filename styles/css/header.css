@@ -1,22 +1,35 @@
 /*
-Error: Undefined variable: "$color-fondo".
-        on line 4 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/header.sass
+Error: Undefined variable: "$color-blanco".
+        on line 12 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/header.sass
 
-1: .header
-2:     position: fixed
-3:     width: 100%
-4:     background: $color-fondo
-5:     z-index: 1
-6: 
-7:     a
-8:         color: $color-blanco
-9:         margin-right: 40px
+7: 
+8:     .navbar
+9:         list-style: none
+10:         
+11:     a
+12:         color: $color-blanco
+13:         margin-right: 20px
+14: 
+15:     .nav-link:hover
+16:         color: #000000
+17:         font-weight: bold
 
 Backtrace:
-/Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/header.sass:4
+/Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/header.sass:12
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala 2.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -60,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-fondo\".\A         on line 4 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/header.sass\A \A 1: .header\A 2:     position: fixed\A 3:     width: 100%\A 4:     background: $color-fondo\A 5:     z-index: 1\A 6: \A 7:     a\A 8:         color: $color-blanco\A 9:         margin-right: 40px"; }
+  content: "Error: Undefined variable: \"$color-blanco\".\A         on line 12 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/header.sass\A \A 7: \A 8:     .navbar\A 9:         list-style: none\A 10:         \A 11:     a\A 12:         color: $color-blanco\A 13:         margin-right: 20px\A 14: \A 15:     .nav-link:hover\A 16:         color: #000000\A 17:         font-weight: bold"; }

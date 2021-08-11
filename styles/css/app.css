@@ -1,16 +1,19 @@
 .header {
   position: fixed;
   width: 100%;
-  background: #191C34;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.103);
   z-index: 1; }
+  .header .navbar {
+    list-style: none; }
   .header a {
     color: #fff;
-    margin-right: 40px; }
+    margin-right: 20px; }
   .header .nav-link:hover {
     color: #000000;
     font-weight: bold; }
   .header .nav-link:focus {
-    color: #191C34;
+    color: #AF3847;
     font-weight: bold; }
   .header-background {
     background-image: url("../../img/portada.png");
@@ -26,10 +29,14 @@
     background-color: rgba(0, 0, 0, 0.4);
     height: 100%; }
 
+.header-color {
+  background: #191C34;
+  color: #fff; }
+
 .banner {
   position: relative;
   height: 650px;
-  background-image: url(../../img/portada.png);
+  background-image: url(../../img/full-screen.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -55,10 +62,17 @@
   .banner .btn-contact:hover {
     background: #191C34;
     box-shadow: 1px 1px 16px #4E23B2; }
+  .banner h2 {
+    color: #fff;
+    font-size: 60px !important;
+    font-family: "Rubik", sans-serif;
+    font-weight: 900; }
 
 .servicios {
   background-color: #191C34;
-  padding: 80px 0; }
+  padding: 80px 0;
+  color: white;
+  font-size: 50px; }
   .servicios h2 {
     font-family: "Rubik", sans-serif;
     color: #AF3847;
@@ -69,15 +83,40 @@
     border: none !important; }
   .servicios .card img {
     height: 200px; }
+  .servicios .card-body {
+    background-color: #3957B1;
+    color: #fff; }
   .servicios .card-title {
     font-size: 18px;
-    color: #3957B1;
+    color: #fff;
     font-family: "Rubik", sans-serif;
-    font-weight: 400; }
-  .servicios p.card-text {
+    font-weight: 400;
+    margin: 0; }
+  .servicios .opacity-card-img {
+    position: relative;
+    cursor: pointer; }
+  .servicios .opacity-card-img p {
     font-size: 14px;
-    font-family: "Open Sans";
-    color: #4E23B2; }
+    display: none; }
+  .servicios .opacity-card-img:hover .svg-img {
+    display: none; }
+  .servicios .opacity-card-img:hover p {
+    display: block;
+    padding: 20px;
+    transition: 1.5s; }
+  .servicios .card:hover .card-body {
+    background: #AF3847 !important; }
+  .servicios .img-bakc {
+    position: absolute;
+    width: 100;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .servicios .item-service {
+    margin-bottom: 20px; }
 
 .nosotros {
   padding: 80px 0;
@@ -89,7 +128,9 @@
     text-align: center; }
   .nosotros p {
     color: #fff;
-    font-size: 20px; }
+    font-size: 16px;
+    margin: 0;
+    padding: 0; }
 
 * {
   box-sizing: border-box; }
@@ -99,10 +140,16 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0; }
+  body .title-header {
+    font-family: "Rubik", sans-serif !important;
+    font-size: 40px;
+    font-weight: 700; }
+  body .navbar-expand-lg .navbar-collapse {
+    justify-content: space-between; }
 
 .contacto {
   font-family: "Rubik", sans-serif;
-  padding: 60px 0;
+  padding: 80px 0;
   background: #fff; }
 
 .contacto .titulo {
@@ -121,9 +168,9 @@ body {
 .contacto .formulario input[type="text"],
 .contacto .formulario input[type="email"],
 .contacto .formulario textarea {
-  border: 2px solid #cecece;
+  border: 1px solid #cecece;
   border-radius: 5px;
-  padding: 15px 20px;
+  padding: 10px 20px;
   font-size: 20px;
   color: #a4a4a4; }
 
@@ -151,14 +198,24 @@ body {
   background: #3957B1;
   color: #fff;
   border: none;
-  box-shadow: 1px 1px 16px blue;
+  box-shadow: 1px 1px 10px blue;
   border-radius: 10px;
-  padding: 15px 40px;
+  padding: 10px 40px;
   cursor: pointer; }
 
 .contacto .formulario .boton:hover {
   background: #191C34;
   box-shadow: 1px 1px 16px #3957B1; }
+
+h3 {
+  margin-bottom: 30px; }
+
+img.img-fluid.img-send-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center; }
 
 .equipo {
   padding: 80px 0;

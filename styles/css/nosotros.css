@@ -1,11 +1,6 @@
 /*
-<<<<<<< HEAD
 Error: Undefined variable: "$color-fondo".
-        on line 3 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/nosotros.sass
-=======
-Error: Undefined variable: "$color-blanco".
         on line 3 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/nosotros.sass
->>>>>>> ad3e92dddb70f86d01a9b1d4bfb8d7d2778d439e
 
 1: .nosotros
 2:     padding: 80px 0
@@ -64,8 +59,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-<<<<<<< HEAD
-  content: "Error: Undefined variable: \"$color-fondo\".\A         on line 3 of C:/Users/andre/OneDrive/Documentos/GitHub/devSegurity_landingPage/styles/sass/nosotros.sass\A \A 1: .nosotros\A 2:     padding: 80px 0\A 3:     background-color: $color-fondo\A 4: \A 5:     h2\A 6:         font-family: $font-title\A 7:         color: $color-rojo\A 8:         padding-bottom: 30px"; }
-=======
-  content: "Error: Undefined variable: \"$color-blanco\".\A         on line 3 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/nosotros.sass\A \A 1: .nosotros\A 2:     padding: 80px 0\A 3:     background-color: $color-blanco\A 4: \A 5:     h2\A 6:         font-family: $font-title\A 7:         color: $color-rojo\A 8:         padding-bottom: 30px"; }
->>>>>>> ad3e92dddb70f86d01a9b1d4bfb8d7d2778d439e
+  content: "Error: Undefined variable: \"$color-fondo\".\A         on line 3 of /Users/lockerserver/Desktop/otros/devsegurity_landingpage/styles/sass/nosotros.sass\A \A 1: .nosotros\A 2:     padding: 80px 0\A 3:     background-color: $color-fondo\A 4: \A 5:     h2\A 6:         font-family: $font-title\A 7:         color: $color-rojo\A 8:         padding-bottom: 30px"; }
